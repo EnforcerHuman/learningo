@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "message": "Chapters fetched successfully",
+  "data": [
+    {
+      "id": 1,
+      "index": 1,
+      "name_en": "Important National and International Days",
+      "name_hi": "महत्त्वपूर्ण राष्ट्रीय एवं अन्तर्राष्ट्रीय दिवस",
+      "units": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ]
+    },
+    {
+      "id": 2,
+      "index": 2,
+      "name_en": "Indian History",
+      "name_hi": "भारतीय इतिहास",
+      "units": [
+        "Ancient India",
+        "Medieval India",
+        "Modern India",
+        "Freedom Struggle"
+      ]
+    },
+    {
+      "id": 3,
+      "index": 3,
+      "name_en": "Indian Geography",
+      "name_hi": "भारतीय भूगोल",
+      "units": [
+        "Physical Features",
+        "Rivers and Lakes",
+        "Climate",
+        "Agriculture",
+        "Mineral Resources"
+      ]
+    },
+    {
+      "id": 4,
+      "index": 4,
+      "name_en": "Indian Polity",
+      "name_hi": "भारतीय राजव्यवस्था",
+      "units": [
+        "Constitution",
+        "Fundamental Rights",
+        "Parliament",
+        "Judiciary",
+        "Local Government"
+      ]
+    },
+    {
+      "id": 5,
+      "index": 5,
+      "name_en": "Indian Economy",
+      "name_hi": "भारतीय अर्थव्यवस्था",
+      "units": [
+        "Basic Economics",
+        "Banking",
+        "National Income",
+        "Budget",
+        "Government Schemes"
+      ]
+    }
+  ]
+}

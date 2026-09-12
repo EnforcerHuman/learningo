@@ -1,0 +1,783 @@
+{
+  "schema": "staticgk.topic.v1",
+  "subject": {
+    "id": "days",
+    "name_en": "Important National and International Days",
+    "name_hi": "महत्त्वपूर्ण राष्ट्रीय एवं अन्तर्राष्ट्रीय दिवस",
+    "hue_key": "a"
+  },
+  "topic": {
+    "unit_index": 1,
+    "id": "days_u1",
+    "name_en": "January",
+    "name_hi": "जनवरी",
+    "icon": "cal",
+    "subtitle": null,
+    "fact_id_prefix": "days1",
+    "totals": {
+      "concepts": 14,
+      "questions_in_run": 10,
+      "match_round": 1,
+      "question_batches": [
+        4,
+        3,
+        3
+      ],
+      "cards_with_image": 14,
+      "cards_with_audio": 5,
+      "by_question_type": {
+        "mcq": 11,
+        "true_false": 3
+      }
+    },
+    "ui": {
+      "intro_design": "3g",
+      "lifeline_5050": true,
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "labels": {
+        "concepts_tile": 14,
+        "questions_tile": 10,
+        "will_learn_list": "open_by_default"
+      }
+    }
+  },
+  "concepts": [
+    {
+      "no": 1,
+      "id": "d1_1",
+      "title": {
+        "hi": "लुइस ब्रेल दिवस",
+        "en": "Louis Braille Day"
+      },
+      "fact": {
+        "hi": "प्रत्येक वर्ष 4 जनवरी को विश्व ब्रेल दिवस मनाया जाता है, जो लुइस ब्रेल की जयंती है। फ्रांस के लुइस ब्रेल ने नेत्रहीनों के पढ़ने लिखने के लिए उभरे हुए बिंदुओं वाली ब्रेल लिपि का आविष्कार किया था।",
+        "en": "World Braille Day is celebrated every year on 4 January, marking Louis Braille's birth anniversary. Louis Braille of France invented the Braille script of raised dots for reading and writing by the blind."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "विश्व ब्रेल दिवस कब मनाया जाता है?",
+          "en": "When is World Braille Day celebrated?"
+        },
+        "answer": {
+          "hi": "4 जनवरी",
+          "en": "4 January"
+        },
+        "options": {
+          "hi": [
+            "4 जनवरी",
+            "9 जनवरी",
+            "12 जनवरी",
+            "24 जनवरी"
+          ],
+          "en": [
+            "4 January",
+            "9 January",
+            "12 January",
+            "24 January"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "विश्व ब्रेल दिवस",
+          "4 जनवरी"
+        ],
+        "en": [
+          "World Braille Day",
+          "4 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1je_wBJl6V54fCajcPplzgTkbtFsHZEVJ=w900",
+        "en": "https://lh3.googleusercontent.com/d/1n0SxZwK3meZQvBBddQpPYsL1zzE0EaI0=w900"
+      },
+      "audio": {
+        "hi": "uploads/Louis Braille Day.mp3",
+        "en": null
+      }
+    },
+    {
+      "no": 2,
+      "id": "d1_2",
+      "title": {
+        "hi": "प्रवासी भारतीय दिवस",
+        "en": "Pravasi Bharatiya Divas"
+      },
+      "fact": {
+        "hi": "प्रवासी भारतीय दिवस 9 जनवरी को मनाया जाता है, क्योंकि इसी दिन वर्ष 1915 में महात्मा गांधी दक्षिण अफ्रीका से भारत लौटे थे। यह दिवस विदेशों में बसे भारतीय समुदाय के योगदान को सम्मान देने के लिए मनाया जाता है।",
+        "en": "Pravasi Bharatiya Divas is celebrated on 9 January, since Mahatma Gandhi returned to India from South Africa on this day in the year 1915. This day honours the contribution of the Indian community settled abroad."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "प्रवासी भारतीय दिवस ______ को मनाया जाता है।",
+          "en": "Pravasi Bharatiya Divas is celebrated on ______."
+        },
+        "answer": {
+          "hi": "9 जनवरी",
+          "en": "9 January"
+        },
+        "options": {
+          "hi": [
+            "4 जनवरी",
+            "9 जनवरी",
+            "10 जनवरी",
+            "12 जनवरी"
+          ],
+          "en": [
+            "4 January",
+            "9 January",
+            "10 January",
+            "12 January"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "प्रवासी भारतीय दिवस",
+          "9 जनवरी"
+        ],
+        "en": [
+          "Pravasi Bharatiya Divas",
+          "9 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1FLNSqPweiZ-gg-zPfCex25T6rQ9F1iP9=w900",
+        "en": "https://lh3.googleusercontent.com/d/1W5voltGdVVsaIpbkA2OcSrYI_P6A3JdV=w900"
+      },
+      "audio": {
+        "hi": "uploads/Pravasi Bharatiya Divas.mp3",
+        "en": null
+      }
+    },
+    {
+      "no": 3,
+      "id": "d1_3",
+      "title": {
+        "hi": "विश्व हिन्दी दिवस",
+        "en": "World Hindi Day"
+      },
+      "fact": {
+        "hi": "विश्व हिन्दी दिवस 10 जनवरी को मनाया जाता है, क्योंकि इसी दिन 1975 में पहला विश्व हिन्दी सम्मेलन नागपुर में हुआ था। ध्यान रखें कि राष्ट्रीय हिन्दी दिवस 14 सितम्बर को मनाया जाता है, दोनों अलग अलग हैं।",
+        "en": "World Hindi Day is celebrated on 10 January, since the first World Hindi Conference was held in Nagpur on this day in 1975. Note: National Hindi Day is celebrated on 14 September; the two are different."
+      },
+      "question": {
+        "type": "true_false",
+        "prompt": {
+          "hi": "विश्व हिन्दी दिवस और राष्ट्रीय हिन्दी दिवस एक ही दिन मनाए जाते हैं।",
+          "en": "World Hindi Day and National Hindi Day are celebrated on the same day."
+        },
+        "answer": {
+          "hi": false,
+          "en": false
+        },
+        "options": {
+          "hi": null,
+          "en": null
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "विश्व हिन्दी दिवस",
+          "10 जनवरी"
+        ],
+        "en": [
+          "World Hindi Day",
+          "10 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1z5J4irVNK-LWvekuQwTHcUBFaBCn4zKk=w900",
+        "en": "https://lh3.googleusercontent.com/d/1QlRNkjEHp-Wt7PXWoN-aHFtFAPE6bJ0l=w900"
+      },
+      "audio": {
+        "hi": "uploads/World Hindi Day.mp3",
+        "en": null
+      }
+    },
+    {
+      "no": 4,
+      "id": "d1_4",
+      "title": {
+        "hi": "राष्ट्रीय युवा दिवस",
+        "en": "National Youth Day"
+      },
+      "fact": {
+        "hi": "राष्ट्रीय युवा दिवस 12 जनवरी को मनाया जाता है, जो स्वामी विवेकानन्द की जयंती है। उनका जन्म वर्ष 1863 में कोलकाता में हुआ था और वर्ष 1984 से यह दिवस मनाया जा रहा है।",
+        "en": "National Youth Day is celebrated on 12 January, Swami Vivekananda's birth anniversary. He was born in Kolkata in the year 1863, and this day has been celebrated since 1984."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "राष्ट्रीय युवा दिवस",
+          "en": "National Youth Day"
+        },
+        "answer": {
+          "hi": "12 जनवरी",
+          "en": "12 January"
+        },
+        "options": {
+          "hi": [
+            "4 जनवरी",
+            "9 जनवरी",
+            "12 जनवरी"
+          ],
+          "en": [
+            "4 January",
+            "9 January",
+            "12 January"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "राष्ट्रीय युवा दिवस",
+          "12 जनवरी"
+        ],
+        "en": [
+          "National Youth Day",
+          "12 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1sEXLSlvDfJH4p9u6cAEGsyt5NkTbKmhi=w900",
+        "en": "https://lh3.googleusercontent.com/d/17aSUhdX8IqPv6fJD_TAw00JgJLsUeHZ4=w900"
+      },
+      "audio": {
+        "hi": "uploads/National Youth Day.mp3",
+        "en": null
+      }
+    },
+    {
+      "no": 5,
+      "id": "d1_5",
+      "title": {
+        "hi": "थल सेना दिवस",
+        "en": "Army Day"
+      },
+      "fact": {
+        "hi": "थल सेना दिवस 15 जनवरी को मनाया जाता है, क्योंकि इसी दिन वर्ष 1949 में के. एम. करियप्पा भारतीय थल सेना के प्रथम भारतीय कमांडर इन चीफ बने थे। उन्होंने अंतिम ब्रिटिश सेनाध्यक्ष जनरल फ्रांसिस रॉय बुचर से कमान संभाली थी और बाद में फील्ड मार्शल बने।",
+        "en": "Army Day is celebrated on 15 January, since K. M. Cariappa became the first Indian Commander in Chief of the Indian Army on this day in the year 1949. He took over command from the last British Army Chief, General Francis Roy Bucher, and later became a Field Marshal."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "थल सेना दिवस किस घटना की याद में मनाया जाता है?",
+          "en": "What event does Army Day commemorate?"
+        },
+        "answer": {
+          "hi": "करियप्पा का सेनाध्यक्ष बनना",
+          "en": "Cariappa becoming Army Chief"
+        },
+        "options": {
+          "hi": [
+            "कारगिल विजय",
+            "करियप्पा का सेनाध्यक्ष बनना",
+            "1971 का युद्ध",
+            "सेना की स्थापना"
+          ],
+          "en": [
+            "Kargil victory",
+            "Cariappa becoming Army Chief",
+            "The 1971 war",
+            "Founding of the Army"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "थल सेना दिवस",
+          "15 जनवरी"
+        ],
+        "en": [
+          "Army Day",
+          "15 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1HiBTX71hIy86qncXRU0w2WSQaMKODhBW=w900",
+        "en": "https://lh3.googleusercontent.com/d/1MW7hX4zJ5Bev3-3lfeB2XByNob4KNA10=w900"
+      },
+      "audio": {
+        "hi": "uploads/Army Day.mp3",
+        "en": null
+      }
+    },
+    {
+      "no": 6,
+      "id": "d1_6",
+      "title": {
+        "hi": "पराक्रम दिवस",
+        "en": "Parakram Diwas"
+      },
+      "fact": {
+        "hi": "पराक्रम दिवस 23 जनवरी को मनाया जाता है, जो नेताजी सुभाष चन्द्र बोस की जयंती है। भारत सरकार ने वर्ष 2021 में उनकी 125वीं जयंती पर इस दिवस की घोषणा की थी।",
+        "en": "Parakram Diwas is celebrated on 23 January, Netaji Subhas Chandra Bose's birth anniversary. The Government of India announced this day in the year 2021, marking his 125th birth anniversary."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "पराक्रम दिवस ______ की जयंती पर मनाया जाता है।",
+          "en": "Parakram Diwas is celebrated on the birth anniversary of ______."
+        },
+        "answer": {
+          "hi": "सुभाष चन्द्र बोस",
+          "en": "Subhas Chandra Bose"
+        },
+        "options": {
+          "hi": [
+            "भगत सिंह",
+            "सुभाष चन्द्र बोस",
+            "चंद्रशेखर आजाद",
+            "लाला लाजपत राय"
+          ],
+          "en": [
+            "Bhagat Singh",
+            "Subhas Chandra Bose",
+            "Chandrashekhar Azad",
+            "Lala Lajpat Rai"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "पराक्रम दिवस",
+          "23 जनवरी"
+        ],
+        "en": [
+          "Parakram Diwas",
+          "23 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1w0PUcbG1pSh4yni6K20Q56SoV3A0f344=w900",
+        "en": "https://lh3.googleusercontent.com/d/1W_6Pfn-NCQvFkh6B3_FTtTjFG_1BIA3v=w900"
+      },
+      "audio": {
+        "hi": null,
+        "en": null
+      }
+    },
+    {
+      "no": 7,
+      "id": "d1_7",
+      "title": {
+        "hi": "राष्ट्रीय बालिका दिवस",
+        "en": "National Girl Child Day"
+      },
+      "fact": {
+        "hi": "राष्ट्रीय बालिका दिवस 24 जनवरी को मनाया जाता है, जिसकी शुरुआत महिला एवं बाल विकास मंत्रालय ने वर्ष 2008 में की थी। इसका उद्देश्य बालिकाओं के अधिकारों, शिक्षा और स्वास्थ्य के प्रति जागरूकता बढ़ाना है।",
+        "en": "National Girl Child Day is celebrated on 24 January, started by the Ministry of Women and Child Development in the year 2008. Its aim is to raise awareness of girls' rights, education and health."
+      },
+      "question": {
+        "type": "true_false",
+        "prompt": {
+          "hi": "राष्ट्रीय बालिका दिवस 24 जनवरी को मनाया जाता है।",
+          "en": "National Girl Child Day is celebrated on 24 January."
+        },
+        "answer": {
+          "hi": true,
+          "en": true
+        },
+        "options": {
+          "hi": null,
+          "en": null
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "राष्ट्रीय बालिका दिवस",
+          "24 जनवरी"
+        ],
+        "en": [
+          "National Girl Child Day",
+          "24 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1n19w4VjJtZzzuL1KF2mK7KHPV2FJcFbi=w900",
+        "en": "https://lh3.googleusercontent.com/d/1Dj60cAG2QnEyMfdoqN-ct3Ff-p4bciPV=w900"
+      },
+      "audio": {
+        "hi": null,
+        "en": null
+      }
+    },
+    {
+      "no": 8,
+      "id": "d1_8",
+      "title": {
+        "hi": "भारत पर्यटन एवं मतदाता दिवस",
+        "en": "India Tourism and Voters' Day"
+      },
+      "fact": {
+        "hi": "25 जनवरी को भारत पर्यटन दिवस तथा राष्ट्रीय मतदाता दिवस, दोनों मनाए जाते हैं। राष्ट्रीय मतदाता दिवस भारत निर्वाचन आयोग के स्थापना दिवस पर है और इसकी शुरुआत वर्ष 2011 में हुई थी।",
+        "en": "Both India Tourism Day and National Voters' Day are celebrated on 25 January. National Voters' Day marks the foundation day of the Election Commission of India, and it began in the year 2011."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "राष्ट्रीय मतदाता दिवस",
+          "en": "National Voters' Day"
+        },
+        "answer": {
+          "hi": "25 जनवरी",
+          "en": "25 January"
+        },
+        "options": {
+          "hi": [
+            "15 जनवरी",
+            "23 जनवरी",
+            "25 जनवरी"
+          ],
+          "en": [
+            "15 January",
+            "23 January",
+            "25 January"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "भारत पर्यटन दिवस एवं राष्ट्रीय मतदाता दिवस",
+          "25 जनवरी"
+        ],
+        "en": [
+          "India Tourism Day and National Voters' Day",
+          "25 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1NWyg7t8TG7l4GSlcMBKngNOg7Gb_DCKC=w900",
+        "en": "https://lh3.googleusercontent.com/d/1geBNoqJbxOXGuK4LrRM6YtNTKYcYGIny=w900"
+      },
+      "audio": {
+        "hi": null,
+        "en": null
+      }
+    },
+    {
+      "no": 9,
+      "id": "d1_9",
+      "title": {
+        "hi": "गणतंत्र दिवस",
+        "en": "Republic Day"
+      },
+      "fact": {
+        "hi": "गणतंत्र दिवस 26 जनवरी को मनाया जाता है, क्योंकि इसी दिन वर्ष 1950 में भारत का संविधान लागू हुआ था। यह तिथि इसलिए चुनी गई क्योंकि 26 जनवरी 1930 को कांग्रेस ने पूर्ण स्वराज की घोषणा की थी।",
+        "en": "Republic Day is celebrated on 26 January, since India's Constitution came into force on this day in the year 1950. This date was chosen because Congress had declared Purna Swaraj, or complete independence, on 26 January 1930."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "भारत का संविधान किस तिथि को लागू हुआ था?",
+          "en": "On which date did India's Constitution come into force?"
+        },
+        "answer": {
+          "hi": "26 जनवरी 1950",
+          "en": "26 January 1950"
+        },
+        "options": {
+          "hi": [
+            "15 अगस्त 1947",
+            "26 नवम्बर 1949",
+            "26 जनवरी 1950",
+            "2 अक्टूबर 1950"
+          ],
+          "en": [
+            "15 August 1947",
+            "26 November 1949",
+            "26 January 1950",
+            "2 October 1950"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "गणतंत्र दिवस",
+          "26 जनवरी"
+        ],
+        "en": [
+          "Republic Day",
+          "26 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1CyCMzi425kxNWiP7_O-rsnE-QA4SURpu=w900",
+        "en": "https://lh3.googleusercontent.com/d/1Zazh_tZv3koDcAGCWk7QdxgDrf1SDw_Y=w900"
+      },
+      "audio": {
+        "hi": null,
+        "en": null
+      }
+    },
+    {
+      "no": 10,
+      "id": "d1_10",
+      "title": {
+        "hi": "अन्तर्राष्ट्रीय सीमा शुल्क दिवस",
+        "en": "International Customs Day"
+      },
+      "fact": {
+        "hi": "अन्तर्राष्ट्रीय सीमा शुल्क एवं उत्पाद दिवस 26 जनवरी को मनाया जाता है। यह विश्व सीमा शुल्क संगठन की पहली बैठक की याद में मनाया जाता है, जो वर्ष 1953 में ब्रुसेल्स में हुई थी।",
+        "en": "International Customs Day is celebrated on 26 January. It commemorates the first meeting of the World Customs Organization, held in Brussels in the year 1953."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "26 जनवरी को गणतंत्र दिवस के साथ ______ दिवस भी मनाया जाता है।",
+          "en": "Along with Republic Day, ______ Day is also celebrated on 26 January."
+        },
+        "answer": {
+          "hi": "सीमा शुल्क",
+          "en": "Customs"
+        },
+        "options": {
+          "hi": [
+            "मतदाता",
+            "सीमा शुल्क",
+            "बालिका",
+            "पर्यटन"
+          ],
+          "en": [
+            "Voters'",
+            "Customs",
+            "Girl Child",
+            "Tourism"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "अन्तर्राष्ट्रीय सीमा शुल्क एवं उत्पाद दिवस",
+          "26 जनवरी"
+        ],
+        "en": [
+          "International Customs Day",
+          "26 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/16fJCI_CvfUZRvSW50VfctC8a_NBeH8Ag=w900",
+        "en": "https://lh3.googleusercontent.com/d/1Ms8Rr_lQoiafBpRWb9T8Qw1_-QCBneF9=w900"
+      },
+      "audio": {
+        "hi": null,
+        "en": null
+      }
+    },
+    {
+      "no": 11,
+      "id": "d1_11",
+      "title": {
+        "hi": "होलोकॉस्ट स्मृति दिवस",
+        "en": "Holocaust Remembrance Day"
+      },
+      "fact": {
+        "hi": "अन्तर्राष्ट्रीय होलोकॉस्ट स्मृति दिवस 27 जनवरी को मनाया जाता है, क्योंकि इसी दिन वर्ष 1945 में ऑशविट्ज यातना शिविर मुक्त कराया गया था। यह द्वितीय विश्वयुद्ध के दौरान नाजी नरसंहार में मारे गए साठ लाख यहूदियों की स्मृति में मनाया जाता है।",
+        "en": "International Holocaust Remembrance Day is celebrated on 27 January, since the Auschwitz concentration camp was liberated on this day in the year 1945. It is observed in memory of the six million Jews killed in the Nazi genocide during World War II."
+      },
+      "question": {
+        "type": "true_false",
+        "prompt": {
+          "hi": "होलोकॉस्ट स्मृति दिवस 27 जनवरी को मनाया जाता है।",
+          "en": "Holocaust Remembrance Day is celebrated on 27 January."
+        },
+        "answer": {
+          "hi": true,
+          "en": true
+        },
+        "options": {
+          "hi": null,
+          "en": null
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "अन्तर्राष्ट्रीय होलोकॉस्ट स्मृति दिवस",
+          "27 जनवरी"
+        ],
+        "en": [
+          "International Holocaust Remembrance Day",
+          "27 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1nLKjEG1C9Q0WdDfib3ob317LyGVF969w=w900",
+        "en": "https://lh3.googleusercontent.com/d/1GOLrKBSAhHoonN1X2y64yZIAt0GvS5hy=w900"
+      },
+      "audio": {
+        "hi": null,
+        "en": null
+      }
+    },
+    {
+      "no": 12,
+      "id": "d1_12",
+      "title": {
+        "hi": "सर्वोदय दिवस",
+        "en": "Sarvodaya Day"
+      },
+      "fact": {
+        "hi": "सर्वोदय दिवस 30 जनवरी को महात्मा गांधी की पुण्यतिथि पर मनाया जाता है। सर्वोदय का अर्थ है सबका उदय, जो गांधीजी के सभी के कल्याण के विचार को दर्शाता है।",
+        "en": "Sarvodaya Day is observed on 30 January, Mahatma Gandhi's death anniversary. Sarvodaya means 'the rise of all', reflecting Gandhiji's idea of the welfare of everyone."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "सर्वोदय दिवस",
+          "en": "Sarvodaya Day"
+        },
+        "answer": {
+          "hi": "30 जनवरी",
+          "en": "30 January"
+        },
+        "options": {
+          "hi": [
+            "26 जनवरी",
+            "27 जनवरी",
+            "30 जनवरी"
+          ],
+          "en": [
+            "26 January",
+            "27 January",
+            "30 January"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "सर्वोदय दिवस",
+          "30 जनवरी"
+        ],
+        "en": [
+          "Sarvodaya Day",
+          "30 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1z733JW-ol52yqURbcGSKee3YqeDOGfw0=w900",
+        "en": "https://lh3.googleusercontent.com/d/1LWmGS5cAZjAyZLWywo5OR25KVtiEwd1A=w900"
+      },
+      "audio": {
+        "hi": null,
+        "en": null
+      }
+    },
+    {
+      "no": 13,
+      "id": "d1_13",
+      "title": {
+        "hi": "शहीद दिवस",
+        "en": "Martyrs' Day"
+      },
+      "fact": {
+        "hi": "शहीद दिवस 30 जनवरी को मनाया जाता है, क्योंकि इसी दिन वर्ष 1948 में महात्मा गांधी की हत्या हुई थी। ध्यान रखें कि 23 मार्च को भी शहीद दिवस मनाया जाता है, जो भगत सिंह, सुखदेव और राजगुरु की शहादत का दिन है।",
+        "en": "Martyrs' Day is observed on 30 January, since Mahatma Gandhi was assassinated on this day in the year 1948. Note: 23 March is also observed as Martyrs' Day, marking the martyrdom of Bhagat Singh, Sukhdev and Rajguru."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "30 जनवरी को शहीद दिवस किसकी पुण्यतिथि पर मनाया जाता है?",
+          "en": "Martyrs' Day on 30 January is observed on whose death anniversary?"
+        },
+        "answer": {
+          "hi": "महात्मा गांधी",
+          "en": "Mahatma Gandhi"
+        },
+        "options": {
+          "hi": [
+            "भगत सिंह",
+            "महात्मा गांधी",
+            "सुभाष चन्द्र बोस",
+            "लाल बहादुर शास्त्री"
+          ],
+          "en": [
+            "Bhagat Singh",
+            "Mahatma Gandhi",
+            "Subhas Chandra Bose",
+            "Lal Bahadur Shastri"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "शहीद दिवस",
+          "30 जनवरी"
+        ],
+        "en": [
+          "Martyrs' Day",
+          "30 January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/1Jk7dM4Arjsu8_pIUf9BpDSCEcqkm5_M4=w900",
+        "en": "https://lh3.googleusercontent.com/d/1XH_Zm-GiPK2TJITftyYWJfUDhwv_pTPk=w900"
+      },
+      "audio": {
+        "hi": null,
+        "en": null
+      }
+    },
+    {
+      "no": 14,
+      "id": "d1_14",
+      "title": {
+        "hi": "कुष्ठ निवारण दिवस",
+        "en": "Leprosy Eradication Day"
+      },
+      "fact": {
+        "hi": "विश्व कुष्ठ निवारण दिवस जनवरी माह के अंतिम रविवार को मनाया जाता है। भारत में इसे 30 जनवरी को भी मनाया जाता है, क्योंकि गांधीजी ने कुष्ठ रोगियों की सेवा को विशेष महत्व दिया था।",
+        "en": "World Leprosy Eradication Day is observed on the last Sunday of January. In India, it is also observed on 30 January, since Gandhiji gave special importance to serving leprosy patients."
+      },
+      "question": {
+        "type": "mcq",
+        "prompt": {
+          "hi": "विश्व कुष्ठ निवारण दिवस जनवरी के ______ को मनाया जाता है।",
+          "en": "World Leprosy Eradication Day is observed on the ______ of January."
+        },
+        "answer": {
+          "hi": "अंतिम रविवार",
+          "en": "Last Sunday"
+        },
+        "options": {
+          "hi": [
+            "पहले रविवार",
+            "अंतिम रविवार",
+            "पहले सोमवार",
+            "अंतिम शुक्रवार"
+          ],
+          "en": [
+            "First Sunday",
+            "Last Sunday",
+            "First Monday",
+            "Last Friday"
+          ]
+        }
+      },
+      "match_pair": {
+        "hi": [
+          "विश्व कुष्ठ निवारण दिवस",
+          "जनवरी के अंतिम रविवार"
+        ],
+        "en": [
+          "World Leprosy Eradication Day",
+          "Last Sunday of January"
+        ]
+      },
+      "image": {
+        "hi": "https://lh3.googleusercontent.com/d/13LDAYk8_P1NbnVqW3KqMJqI9g4vy59B4=w900",
+        "en": "https://lh3.googleusercontent.com/d/1NHzEDTrpfIB0JZiGRdYttXb_SdNoxQOW=w900"
+      },
+      "audio": {
+        "hi": null,
+        "en": null
+      }
+    }
+  ]
+}

@@ -18,47 +18,36 @@ class RoadmapPathPainter extends CustomPainter {
       ..strokeCap = StrokeCap.round;
 
     final path = Path();
-    // Start slightly above the first node point
     final first = points.first;
-    path.moveTo(first.dx - 20, 0);
+    // Start straight down into the first milestone node
+    path.moveTo(first.dx, 0);
+    path.lineTo(first.dx, first.dy);
 
-    // Initial curve into the first point
-    path.cubicTo(
-      first.dx - 15,
-      first.dy * 0.4,
-      first.dx - 5,
-      first.dy * 0.7,
-      first.dx,
-      first.dy,
-    );
-
-    // Smooth cubic bezier curves connecting successive node centers
+    // Smooth bezier curves connecting successive node centers
     for (int i = 0; i < points.length - 1; i++) {
       final p0 = points[i];
       final p1 = points[i + 1];
 
+      // Maintain vertical line past info widget height (p0.dy + 38)
+      final yStartCurve = p0.dy + 38.0;
+      final yEndCurve = p1.dy - 38.0;
       final midY = (p0.dy + p1.dy) / 2;
 
+      path.lineTo(p0.dx, yStartCurve);
       path.cubicTo(
         p0.dx,
         midY,
         p1.dx,
         midY,
         p1.dx,
-        p1.dy,
+        yEndCurve,
       );
+      path.lineTo(p1.dx, p1.dy);
     }
 
-    // Continue smoothly past the last milestone node
+    // Continue straight down past the last milestone node
     final last = points.last;
-    path.cubicTo(
-      last.dx,
-      last.dy + 35,
-      last.dx + 20,
-      last.dy + 55,
-      last.dx + 30,
-      last.dy + 75,
-    );
+    path.lineTo(last.dx, last.dy + 50);
 
     _drawDashedPath(canvas, path, paint, dashWidth: 7.0, dashSpace: 5.5);
   }

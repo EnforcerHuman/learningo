@@ -73,7 +73,7 @@ abstract final class AppTypography {
   );
 
   static const TextStyle statusPill = TextStyle(
-    fontSize: 11,
+    fontSize: 12,
     fontWeight: FontWeight.w700,
   );
 

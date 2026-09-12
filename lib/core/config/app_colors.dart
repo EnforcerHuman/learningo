@@ -119,8 +119,9 @@ abstract final class AppColors {
   // Node: Completed (Emerald Green)
   static const Color completedNodeGreen = Color(0xFF22C55E);
   static const Color completedNodeHalo = Color(0xFFDCFCE7);
-  static const Color masteredBadgeBackground = Color(0xFFDCFCE7);
-  static const Color masteredBadgeText = Color(0xFF15803D);
+  static const Color masteredBadgeBackground = Color(0xFFEDF7F2);
+  static const Color masteredBadgeBorder = Color(0xFFC5E8D4);
+  static const Color masteredBadgeText = Color(0xFF0F683D);
 
   // Node: Active (Royal Blue)
   static const Color activeNodeBlue = Color(0xFF2563EB);

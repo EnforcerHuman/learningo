@@ -37,7 +37,7 @@ class RoadmapNodeInfoWidget extends StatelessWidget {
             style: AppTypography.nodeTitle,
             textAlign: textAlign,
           ),
-          const SizedBox(height: 5),
+          const SizedBox(height: 3),
           _buildStatusPill(node.statusText, node.type),
         ],
       ),
@@ -78,31 +78,40 @@ class RoadmapNodeInfoWidget extends StatelessWidget {
   Widget _buildStatusPill(String text, RoadmapNodeType type) {
     Color bg;
     Color textColor;
+    Border? border;
 
-    switch (type) {
-      case RoadmapNodeType.completed:
-        bg = AppColors.masteredBadgeBackground;
-        textColor = AppColors.masteredBadgeText;
-        break;
-      case RoadmapNodeType.active:
-        bg = AppColors.conceptsBadgeBackground;
-        textColor = AppColors.conceptsBadgeText;
-        break;
-      case RoadmapNodeType.test:
-        bg = AppColors.testQuestionsBadgeBackground;
-        textColor = AppColors.testQuestionsBadgeText;
-        break;
-      case RoadmapNodeType.locked:
-        bg = AppColors.upcomingBadgeBackground;
-        textColor = AppColors.upcomingBadgeText;
-        break;
+    if (text.contains('mastered')) {
+      bg = AppColors.masteredBadgeBackground;
+      textColor = AppColors.masteredBadgeText;
+      border = Border.all(color: AppColors.masteredBadgeBorder, width: 1.0);
+    } else {
+      switch (type) {
+        case RoadmapNodeType.completed:
+          bg = AppColors.masteredBadgeBackground;
+          textColor = AppColors.masteredBadgeText;
+          border = Border.all(color: AppColors.masteredBadgeBorder, width: 1.0);
+          break;
+        case RoadmapNodeType.active:
+          bg = AppColors.conceptsBadgeBackground;
+          textColor = AppColors.conceptsBadgeText;
+          break;
+        case RoadmapNodeType.test:
+          bg = AppColors.testQuestionsBadgeBackground;
+          textColor = AppColors.testQuestionsBadgeText;
+          break;
+        case RoadmapNodeType.locked:
+          bg = AppColors.upcomingBadgeBackground;
+          textColor = AppColors.upcomingBadgeText;
+          break;
+      }
     }
 
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
       decoration: BoxDecoration(
         color: bg,
-        borderRadius: BorderRadius.circular(12),
+        border: border,
+        borderRadius: BorderRadius.circular(16),
       ),
       child: Text(
         text,

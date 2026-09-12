@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:learningo/core/config/app_colors.dart';
 import 'package:learningo/core/config/responsive_utils.dart';
-import 'package:learningo/features/home/data/datasource/home_local_datasource.dart';
+import 'package:learningo/core/di/injection_container.dart';
 import 'package:learningo/features/home/data/models/roadmap_node_model.dart';
-import 'package:learningo/features/home/data/repositories/home_repository_impl.dart';
 import 'package:learningo/features/home/domain/entites/chapter_entity.dart';
 import 'package:learningo/features/home/domain/entites/unit_progress_entity.dart';
-import 'package:learningo/features/home/domain/usecases/get_chapters_usecase.dart';
 import 'package:learningo/features/home/presentation/bloc/home_bloc.dart';
 import 'package:learningo/features/home/presentation/bloc/home_event.dart';
 import 'package:learningo/features/home/presentation/bloc/home_state.dart';
@@ -24,13 +22,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => HomeBloc(
-        getChaptersUseCase: GetChaptersUseCase(
-          HomeRepositoryImpl(
-            localDataSource: HomeLocalDataSourceImpl(),
-          ),
-        ),
-      )..add(const LoadHomeDataEvent()),
+      create: (context) => sl<HomeBloc>()..add(const LoadHomeDataEvent()),
       child: const _HomePageView(),
     );
   }

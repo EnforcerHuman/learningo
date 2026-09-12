@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:learningo/core/config/app_colors.dart';
 import 'package:learningo/core/config/responsive_utils.dart';
-import 'package:learningo/features/chapters/data/datasource/chapters_local_datasource.dart';
-import 'package:learningo/features/chapters/data/repositories/chapters_repository_impl.dart';
-import 'package:learningo/features/chapters/domain/usecases/get_unit_detail_usecase.dart';
+import 'package:learningo/core/di/injection_container.dart';
 import 'package:learningo/features/chapters/presentation/bloc/unit_detail_bloc.dart';
 import 'package:learningo/features/chapters/presentation/bloc/unit_detail_event.dart';
 import 'package:learningo/features/chapters/presentation/bloc/unit_detail_state.dart';
@@ -33,13 +31,7 @@ class UnitDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => UnitDetailBloc(
-        getUnitDetailUseCase: GetUnitDetailUseCase(
-          ChaptersRepositoryImpl(
-            localDataSource: ChaptersLocalDataSourceImpl(),
-          ),
-        ),
-      )..add(LoadUnitDetailEvent(unitId: unitId)),
+      create: (context) => sl<UnitDetailBloc>()..add(LoadUnitDetailEvent(unitId: unitId)),
       child: _UnitDetailPageView(
         monthName: monthName,
         homeBloc: homeBloc,

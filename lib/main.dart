@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:learningo/core/di/injection_container.dart';
 import 'package:learningo/features/home/presentation/pages/home_page.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await initInjectionContainer();
   runApp(const MyApp());
 }
 

@@ -2,10 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:learningo/core/config/app_colors.dart';
 import 'package:learningo/core/config/responsive_utils.dart';
-import 'package:learningo/features/chapters/data/datasource/chapters_local_datasource.dart';
-import 'package:learningo/features/chapters/data/repositories/chapters_repository_impl.dart';
+import 'package:learningo/core/di/injection_container.dart';
 import 'package:learningo/features/chapters/domain/entites/question_entity.dart';
-import 'package:learningo/features/chapters/domain/usecases/get_questions_usecase.dart';
 import 'package:learningo/features/chapters/presentation/bloc/question_bloc.dart';
 import 'package:learningo/features/chapters/presentation/bloc/question_event.dart';
 import 'package:learningo/features/chapters/presentation/bloc/question_state.dart';
@@ -56,11 +54,8 @@ class QuestionPage extends StatelessWidget {
     }
 
     return BlocProvider(
-      create: (context) => QuestionBloc(
-        getQuestionsUseCase: GetQuestionsUseCase(
-          ChaptersRepositoryImpl(localDataSource: ChaptersLocalDataSourceImpl()),
-        ),
-      )..add(LoadQuestionsEvent(unitId: unitId, initialIndex: savedIndex)),
+      create: (context) => sl<QuestionBloc>()
+        ..add(LoadQuestionsEvent(unitId: unitId, initialIndex: savedIndex)),
       child: _QuestionPageView(monthName: resolvedMonth, homeBloc: targetHomeBloc),
     );
   }
